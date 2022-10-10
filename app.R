@@ -120,7 +120,7 @@ server <- function(input, output) {
        add_trace(x = ~interaction(FilDa()$Anio,FilDa()$Trimestre, lex.order = TRUE),
                 y = ~FilDa()$Valor, mode = 'markers',type = "scatter",
                color = FilDa()$Tipo_Linea) %>%
-        layout(height = 549, width = 1050,
+        layout(height = 550, width = 1050,
                xaxis = list(title = 'Año / Trimestre'),
                yaxis = list(title = 'Pesos Mexicanos ($)'),
                title = 'Ingreso Promedio real deflactado en México vs Lineas de Pobreza',
