@@ -1,2 +1,2 @@
-# IncomeMex
-Gráfica dinámica del ingreso promedio en México deflactado a valores del 2020
+# Mapa de Ingresos Reales y Lineas de Pobreza en México
+
